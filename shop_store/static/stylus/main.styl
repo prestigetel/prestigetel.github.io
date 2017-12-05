@@ -1,0 +1,128 @@
+// Подключаем стили библиотек
+@import '_libs.styl'
+
+// Подключаем переменные
+@import '_vars.styl'
+
+// Подключаем спрайты (просто раскоментируем импорт при появлении PNG спрайтов)
+ @import '_sprite.styl'
+
+// Подключаем миксины
+@import '_mixins.styl'
+
+html 
+  line-height 1
+  font-size 14px
+
+body
+  background-color mainBgColor	
+  font-family mainFont
+  color mainFontColor
+  
+
+h1,h2,h3,h4,h5,h6
+  margin 0
+
+ul,li
+  margin 0
+  padding 0
+  list-style-type none
+  
+p
+  margin 0
+  
+a
+  text-decoration none
+  color #34404b
+ 
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video
+  vertical-align middle
+  
+textarea
+  resize none
+
+section
+  position relative
+  margin-bottom 120px
+input,
+select,
+button
+  outline none
+
+*, *:before, *:after
+  box-sizing border-box
+  
+.hide
+  display none
+  
+.show
+  display block
+  
+::-moz-selection 
+  background: #b3d4fc;
+  text-shadow: none;
+  
+::selection 
+  background: #b3d4fc;
+  text-shadow: none;
+  
+.clearfix:before,
+.clearfix:after 
+  content: " ";
+  display: table;
+
+.clearfix:after 
+  clear: both;
+
+.clearfix 
+  *zoom: 1;
+    
+.container
+    width:97%
+    max-width:1170px
+    margin 0 auto
+	
+//Кнопки	
+.g-btn
+	border none
+	background-color orangeColor
+	color white
+	line-height 50px
+	padding 0 35px
+	cursor pointer
+	
+							
+	
+
+
+
+
+// Общие стили
+@import '_common_styles.styl'
+
+// Стили шапки
+@import 'modules/_header.styl'
+
+// Стили меню
+@import 'modules/_menu.styl'
+
+// Стили главной страницы
+@import 'page/_index.styl'
+
+// Стили страницы продукты
+@import 'page/product.styl'
+
+// Стили страницы все продукты
+@import 'page/products-all.styl'
+
+// Стили футера
+@import 'modules/_footer.styl'
+
+// Стили медиазапросов
+@import '_media.styl'

@@ -1,0 +1,99 @@
+extends ../layout/main
+
+block title
+	| Главная страница
+
+block content
+	section.all_products
+		.container
+			aside.all_products_filter
+				.filter_item
+					span.filter_title Categories
+					.filter_line
+						input(type="radio" id="filter-cat-man" name="filter-cat")
+						label(for="filter-cat-man") Man
+						
+					.filter_line
+						input(type="radio" id="filter-cat-woman" name="filter-cat")
+						label(for="filter-cat-woman") Woman
+						
+					.filter_line
+						input(type="radio" id="filter-cat-children" name="filter-cat")
+						label(for="filter-cat-children") Children
+						
+					.filter_line
+						input(type="radio" id="filter-cat-hot" name="filter-cat")
+						label(for="filter-cat-hot") Hot Deals
+						
+				.filter_item
+					span.filter_title Filter Price
+					.filter_line
+						input(type="range")
+					.filter_line.filter_line--price
+						.filter_price_from
+							span From
+							input(type="text")
+						.filter_price_to
+							span To
+							input(type="text")
+				.filter_item
+					span.filter_title Sizes
+					.filter_line
+						label(for="filter-sizes-small").checkbox Small
+							input(type="checkbox" id="filter-sizes-small")
+							span.custom_checkbox
+						
+					.filter_line
+						label(for="filter-sizes-medium").checkbox Medium
+							input(type="checkbox" id="filter-sizes-medium")
+							span.custom_checkbox
+					.filter_line
+						label(for="filter-sizes-large").checkbox Large
+							input(type="checkbox" id="filter-sizes-large")
+							span.custom_checkbox
+						
+					.filter_line
+						label(for="filter-sizes-x-large").checkbox X-Large
+							input(type="checkbox" id="filter-sizes-x-large")
+							span.custom_checkbox
+								
+				.filter_item
+					span.filter_title Brands
+					.filter_line
+						label(for="filter-brands-reebok").checkbox Reebok
+							input(type="checkbox" id="filter-brands-reebok")
+							span.custom_checkbox
+						
+					.filter_line
+						label(for="filter-brands-adidas").checkbox Adidas
+							input(type="checkbox" id="filter-brands-adidas")
+							span.custom_checkbox
+						
+					.filter_line
+						label(for="filter-brands-nike").checkbox Nike
+							input(type="checkbox" id="filter-brands-nike")
+							span.custom_checkbox
+						
+					.filter_line
+						label(for="filter-brands-active").checkbox Active
+							input(type="checkbox" id="filter-brands-active")
+							span.custom_checkbox
+									
+			main.products_show.clearfix
+				.product_show_wrap.clearfix
+					include ../products/product1
+					include ../products/product2
+					include ../products/product3
+					include ../products/product1
+					include ../products/product2
+					include ../products/product3
+					include ../products/product1
+					include ../products/product2
+					include ../products/product3
+				a(href="javascript:void(0);").product_item_more_load ...
+			
+
+
+
+			
+	include ../modules/subscribe
