@@ -1,0 +1,45 @@
+body {
+  font-family: "RobotoRegular", sans-serif;
+  font-weight: normal;
+  font-size: 14px;
+  min-width: 320px;
+  color: #333;
+  position: relative;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialised; }
+
+h1 {
+  color: #fff;
+  font-size: 60px;
+  line-height: 56px;
+  font-weight: bold;
+  font-family: "CleanvertisingLight",sans-serif; }
+
+section {
+  padding: 58px 0 68px; }
+  section.s_dark {
+    color: #fff; }
+  section h2, section h3, section p {
+    color: #003469;
+    font-size: 50px;
+    line-height: 56px;
+    margin-bottom: 50px; }
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid {
+  color: red; }
+
+body input:required:valid,
+body textarea:required:valid {
+  color: green; }
+
+.hidden {
+  display: none; }
+
+.he {
+  min-height: 640px;
+  background-image: url(../img/top_bg.jpg);
+  font-size: 80px; }
+
+p {
+  font-size: 56px; }
