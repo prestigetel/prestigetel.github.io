@@ -1,0 +1,163 @@
+.product_view
+	background-color white
+	padding 100px 0
+	.container
+		overflow hidden
+.product_gallery	
+	float left
+	width 100%
+	max-width 500px
+.js-product-view-slider
+	img
+		display block
+		margin 0 auto
+		
+.js-product-slider-pager
+	text-align center
+	a
+		display inline-block
+		width 100px
+		height 70px
+		position relative
+		background-color mainBgColor
+		vertical-align top
+		margin 0 7px
+		&.active
+			&:after
+				content ''
+				position absolute
+				top 0
+				bottom 0
+				left 0
+				right 0
+				display block
+				background-color orangeColor
+				opacity .85
+	img
+		position absolute
+		top 50%
+		left 50%
+		transform translate(-50%,-50%)
+		
+.product_info
+	float right
+	width 100%
+	max-width 640px
+		
+.product_title
+	display block
+	margin-bottom 30px
+	color orangeColor
+	font-family extraBoldFont
+	font-size 3.714 rem
+	
+.product_descr
+	display block
+	margin-bottom 40px
+	font-family semibold
+	font-size 1.286 rem
+	
+.product_text
+	display block
+	font-size 1.143 rem
+	color lightBlueColor
+	line-height 30px
+	
+	
+.products_setings
+	padding 40px 0
+	border-top 1px solid borderLightGray
+	border-bottom 1px solid borderLightGray
+	margin-top 45px
+	overflow hidden
+	
+.product_choose_size	
+	float left
+.product_choose_size
+	li
+		position relative
+		margin-right 8px
+		display inline-block
+		color blueColor
+		cursor pointer
+		&:last-child
+			margin-right 0
+			&:after
+				display none
+		&:after
+			content '-'
+			display inline-block
+			position absolute
+			right -8px
+			top -2px
+			color blueColor
+		&.active
+			font-size 1.286 rem
+			color orangeColor
+			font-family semibold
+			&:after
+				top 0
+		
+.product_choose_quantity
+	float right
+		
+.product_choose_size,
+.product_choose_quantity
+	&>span
+		font-size 1.286 rem
+		color blueColor
+		font-family semibold
+		margin-right 25px
+		
+.chose_size_list
+	display inline-block
+	
+.choose_quantity
+	display inline-block
+	span
+		font-family semibold
+		font-size 1.286 rem
+	
+.choose_quantity_count
+	color orangeColor
+	margin 0 15px
+	
+.choose_quantity_up,
+.choose_quantity_down
+	cursor pointer
+	
+.product_actions	
+	overflow hidden
+	margin-top 35px
+	
+.product_price_wrap
+	float left
+	margin-top 20px
+	span
+		font-family boldFont
+		color blueColor
+		font-size 1.429 rem
+		
+.product_price
+	margin-left 10px
+	
+	
+.product_buttons
+	.products_buttons_list
+		vertical-align middle
+		display inline-block
+		margin-right 15px
+		
+	.g-btn
+		display inline-block
+		height 50px
+		line-height 50px
+		border-radius 30px
+		font-family semibold
+	float right
+	
+
+	
+
+	
+		

@@ -1,0 +1,87 @@
+extends ../layout/main
+
+block title
+	| Главная страница
+
+block content 
+	section.index_slider
+		.container
+			.js-index-slider_pager
+				a(href="" data-slide-index="0").active
+				a(href="" data-slide-index="1")
+				a(href="" data-slide-index="2")
+		ul.js-index-slider
+			li
+				img(src="static/img/content/mainslider/slide1.jpg")
+				.index_slider_info
+					span.index-slider_title FULL WINTER KIT
+					span.index_slider_goods Half Jacket+Skiny Trousers+Boot Leather
+					span.index_slider_descr Lorem Ipsum is simply dummy text of the printing and typesetting industry
+					.index_slider_actions
+						span.index_slider_price Price: 120$
+						span.index_slider_order Order Now						
+			li
+				img(src="static/img/content/mainslider/slide1.jpg")
+			li
+				img(src="static/img/content/mainslider/slide1.jpg")
+	section.new_arriwals
+		.container
+			.section_title
+				.section_title_big
+					span.section_title_orange New
+					span Arrivals
+				span.section_title_descr Lorem Ipsum is simply dummy text of the printing and typesetting industry
+				.product_item_wrap.clearfix
+					include ../products/product1
+					include ../products/product2
+					include ../products/product3
+					include ../products/product1
+				a(href="javascript:void(0);").product_item_more_load ...
+	section.banners
+		.container
+			.banner_big
+				img(src="static/img/content/banners/sale_big_banner.png").banner_big_img
+				.banner_big_text
+					span.banner_big_title Full Winter Kit				
+					span.banner_big_descr Half Jacket+Skiny Trousers+Boot leather			
+				a(href="javascript:void(0);").banner_big_price 120$
+			.banner_small
+				.banner_empty_wrap
+					span.banner_empty_text adv
+					span.banner_empty_text.banner_empty_text--orange area
+					span.banner_size 470 x 100
+	section.best_sales
+		.container.clearfix
+			.section_title
+				.section_title_big
+					span.section_title_orange Best
+					span Sales
+				span.section_title_descr Lorem Ipsum is simply dummy text of the printing and typesetting industry
+			.best_sales_item_wrap
+				.best_sales_item
+					img(src="static/img/content/products/product4.png").best_sales_img
+					.best_sales_info
+						span.best_sales_title Reebok Track Jacket
+						.best_sales_rating
+							img(src="static/img/general/stars.jpg")
+							span.best_sales_price 100$
+						a(href="javascript:void(0);").best_sales_buy add to cart
+				.best_sales_item
+					img(src="static/img/content/products/product4.png").best_sales_img
+					.best_sales_info
+						span.best_sales_title Reebok Track Jacket
+						.best_sales_rating
+							img(src="static/img/general/stars.jpg")
+							span.best_sales_price 100$
+						a(href="javascript:void(0);").best_sales_buy add to cart	
+				.best_sales_item
+					img(src="static/img/content/products/product4.png").best_sales_img
+					.best_sales_info
+						span.best_sales_title Reebok Track Jacket
+						.best_sales_rating
+							img(src="static/img/general/stars.jpg")
+							span.best_sales_price 100$
+						a(href="javascript:void(0);").best_sales_buy add to cart
+	include ../modules/subscribe
+					
+					

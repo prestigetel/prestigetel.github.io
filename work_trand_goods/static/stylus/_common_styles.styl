@@ -1,0 +1,372 @@
+.product_item
+	position relative
+	background-color white
+	width 100%
+	width 270px
+	height 370px
+	padding 30px 20px
+	float left
+	margin-bottom 50px
+	transition 1s
+	&:hover	
+		box-shadow 0px 0px 10px 0px rgba(0,0,0,.2)
+		transition 1s
+		.product_item_first
+			display none
+		.product_item_second
+			opacity 1
+			transition 1.5s		
+			
+.product_item_second
+	position absolute
+	padding 30px 20px
+	top 0
+	left 0
+	opacity 0
+	
+	
+	
+	
+	
+.section_title
+	text-align center
+	margin-bottom 70px
+.section_title_big	
+	span
+		text-transform uppercase
+		font-size 2.571 rem
+		font-family boldFont
+	margin-bottom 30px
+.section_title_orange
+	color orangeColor
+		
+		
+	
+.section_title_descr
+	display block
+	text-transform none
+	color lightBlueColor
+	margin-bottom 85px
+	
+.new_arriwals
+	text-align center
+	.product_item
+		display inline-block
+		vertical-align top
+		float none
+		margin 0 30px 50px -3px
+		&:nth-of-type(4n)
+			margin-right 0
+			
+.product_item_pic
+	display block
+	margin 0 auto 15px
+	height 205px
+	
+.product_item_title
+	font-weight bold
+	font-size 1.143 rem
+	display block
+	text-align center
+	margin-bottom 25px
+	
+.product_item_price
+	display block
+	color orangeColor
+	text-align center
+	font-size 1.143 rem
+	font-weight bold
+	
+
+	
+.product_item_slider
+	img
+		display block
+		margin 0 auto 
+		height 90px
+		
+.product_item_second
+	.product_item_title
+		color orangeColor
+		
+.sizes_list
+	display inline-block
+	li
+		display inline-block
+		&:after
+			content '-'
+			margin-left 5px
+		&:last-child
+			&:after
+				display none
+		&.active
+			span
+				color orangeColor
+				font-size 1.4 rem
+	span
+		cursor pointer
+		&:hover		
+			color orangeColor
+		
+			
+				
+.product_item_sizes
+	text-align center
+	font-family boldFont
+	margin-bottom 40px
+	&>span
+		margin-right 10px
+		
+		
+.product_item_colors
+	text-align center
+	margin-bottom 40px
+	a
+		display inline-block
+		width 12px
+		height 12px
+		border-radius 50%
+		margin 0 2px
+		
+		
+.product_color_pink
+	background-color #e12e3f
+	
+.product_color_indigo
+	background-color #34404b
+	
+.product_color_blue
+	background-color #3ab3ff
+	
+.product_color_green
+	background-color #2fd967
+	
+.product_item_buttons
+	&:before
+		content ""
+		display block
+		width 70%
+		height 1px
+		background-color lightGrayColor
+		margin 0 auto 30px
+		text-align center		
+	a
+		display inline-block
+		
+		
+.products_buttons_list
+	display block	
+	text-align center
+
+	li
+		display inline-block
+		
+	a
+		display block
+		margin 0 10px
+		
+	
+.product_share
+	sprite($s-share)
+	
+.product_order
+	sprite($s-order_cart)
+	
+.product_favourite
+	sprite($s-favourite)
+	
+	
+.product_item_more_load
+	display block
+	width 100%
+	background-color white
+	color orangeColor
+	font-size 5 rem
+	height 60px
+	line-height .2
+	cursor pointer
+	margin-top 20px
+	text-align center
+.banners
+		.container
+			overflow hidden			
+	
+	
+.banner_big,
+.banner_small	
+	background-color white
+	width 100%
+	height 100px
+	border 1px solid lightBorderColor
+	
+	
+	
+.banner_small
+	float right	
+	max-width 470px
+	padding-top 30px
+	
+	
+.banner_big
+	float left
+	max-width 670px
+	padding 10px 0 0 60px
+	
+.banner_big_text
+	display inline-block
+	vertical-align middle
+	margin-right 40px
+	
+.banner_big_title
+	display block
+	margin 0 60px 15px 70px
+	font-family extraBoldFont
+	font-size 1.571 rem
+	text-transform uppercase
+	
+.banner_big_descr 
+	font-size .857 rem
+	display block
+	padding-left 70px
+	color lightBlueColor
+
+.banner_big_price
+	display inline-block
+	vertical-align middle	
+	color orangeColor
+	font-size 2.286 rem
+	font-family extraBoldFont
+	&:before
+		content ''
+		display inline-block
+		margin-right 20px		
+		sprite($s-order_cart)
+		
+.banner_empty_wrap
+	text-align center
+	
+	
+.banner_empty_text	
+	font-size 1.143 rem
+	color lightBlueColor
+	&.banner_empty_text--orange
+		color orangeColor
+		
+.banner_size
+	font-size .857 rem
+	display block
+	margin-top 15px
+	letter-spacing 4px
+	
+.best_sales_item_wrap
+	text-align center
+	
+.best_sales_item
+	position relative
+	display inline-block
+	vertical-align top
+	background-color white
+	padding 50px 30px 50px 150px
+	margin 0 30px 30px -3px
+	width 100%
+	max-width 370px
+	min-height 171px
+	
+	cursor pointer
+	&:nth-of-type(3n)
+		margin-right 0
+	&:hover
+		.best_sales_rating
+			display none
+		.best_sales_buy
+			display block
+		box-shadow 0px 0px 10px 0px rgba(0,0,0,.2)
+		transition .5s	
+	
+.best_sales_img
+	position absolute
+	top 40px
+	left 30px
+	
+.best_sales_title
+	font-family boldFont
+	font-size 1.286 rem
+	display block
+	margin-bottom 30px
+	
+.best_sales_info
+	text-align center
+	position relative
+	padding-left 28px
+	&:before
+		content ''		
+		position absolute
+		left 0		
+		width 1px
+		height 55px
+		background-color content ''		
+		position absolute
+		
+		top 4px
+		background-color grayColor
+	
+	
+		
+	
+.best_sales_rating
+	overflow hidden
+	text-align left
+.best_sales_price
+	float right
+	font-family boldFont
+	font-size 1.143 rem
+	color orangeColor
+	
+.best_sales_buy
+	display none
+	font-size 1.143 rem
+	color orangeColor
+	font-family boldFont
+	&:before
+		content ''
+		display inline-block
+		margin-right 10px		
+		sprite($s-order_cart)
+.subscribe_content
+	overflow hidden
+	background-color white
+	padding 35px 40px
+	
+.subscribe_title
+	display inline-block
+	padding-top 15px
+	color orangeColor
+	font-family extraBoldFont
+	font-size 1.286 rem
+	margin-right 30px
+	text-transform uppercase
+	
+.subscribe_descr
+	font-family italicFont
+	
+.subscribe_form
+	float right
+	
+	
+	
+.input_field	
+	background none
+	border none
+	font-family italicFont
+	
+	
+.input_field_wrap
+	display inline-block
+	position relative
+	padding-left 35px	
+	&:before
+		content ''		
+		position absolute
+		left 0
+		top 4px
+		sprite($s-header_mail)		
