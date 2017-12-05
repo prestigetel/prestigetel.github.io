@@ -1,0 +1,70 @@
+.our_packets
+	padding 60px 0
+	
+.packets_slider_next
+	sprite($s-our_packets_next_arrow)
+	right 0
+
+.packets_slider_prev
+	sprite($s-our_packets_prev_arrow)
+	left 0
+
+.our_packets_slider
+	position relative
+	.slick-arrow
+		position absolute
+		top 50%
+		margin-top -30px
+		z-index 2
+		cursor pointer	
+
+.our_packets_item
+	position relative
+	background-color white
+	border-radius 25px
+	padding 35px
+	margin 0 10px 10px
+	height 700px
+	box-shadow 0px 4px 7px 1px rgba(0,0,0,0.15)
+
+.our_packets_item_title
+	text-align center
+	font-size 24px
+	font-family boldFont
+	&:after
+		content ''
+		display block
+		width 20px
+		height 6px
+		margin 20px auto
+		background-color blueColor  
+		border-radius 5px
+
+
+
+.our_packets_list_descr 
+	display block
+	font-size 14px
+	color darkGrayColor
+	line-height 20px
+	margin-bottom 15px
+
+.our_packets_item_bottom
+	position absolute
+	left 0
+	right 0
+	bottom 30px
+	padding 30px 30px 0
+	border-top 1px solid grayBorderColor
+	.g-btn
+		box-shadow 0px 4px 7px 1px rgba(0,0,0,0.15)
+
+
+
+.our_packets_item_number
+	display block
+	margin-bottom 10px
+	text-align center
+	font-size 32px
+	font-family boldFont	
+

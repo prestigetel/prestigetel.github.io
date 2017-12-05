@@ -1,0 +1,93 @@
+header
+	position absolute
+	top 0
+	left 0
+	right 0
+	width 100%
+	padding 20px 0
+	border-bottom 1px solid rgba(255,255,255,.2)
+	z-index 1
+	.container
+		display flex
+		flex-wrap wrap
+		justify-content space-between
+		align-items center
+
+
+
+.main_nav_list
+	li
+		display inline-block
+		margin-right 70px
+	a
+		color white
+	li
+			&:hover
+				cursor pointer	
+
+	&.mobile_show
+		right -1.5%
+		transition all linear .8s
+
+
+
+.nav_mobile
+	display none
+	position absolute
+	top -20px
+	right -1.5%
+	bottom -21px
+	cursor pointer
+	width 70px
+	background-color transparent
+	transition all linear .5s 
+
+	&.active
+		background-color violetBgColor
+		transition all linear .5s
+
+		.nav_mobile_line--top
+			top 50%
+			transform rotate(45deg) translateY(-50%)
+			transition all linear .5s 	
+
+
+
+		.nav_mobile_line--middle
+			opacity 0
+			transition all linear .5s
+
+
+		.nav_mobile_line--bottom
+			top 50%
+			transform rotate(-45deg) translateY(-50%)
+			transition all linear .5s	
+
+
+
+.nav_mobile_line
+	left 20px
+	position absolute
+	display block
+	width 30px
+	height 2px
+	background-color white
+
+.nav_mobile_line--top
+	top 48px
+	transition all linear .5s
+
+
+
+.nav_mobile_line--middle
+	top 58px
+	opacity 1
+	transition all linear .5s
+
+
+.nav_mobile_line--bottom
+	top 68px
+	transition all linear .5s	
+
+
+

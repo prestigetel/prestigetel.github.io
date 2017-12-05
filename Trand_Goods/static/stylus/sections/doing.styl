@@ -1,0 +1,62 @@
+.doing_descr
+	font-size 24px
+	display block
+	text-align center
+	margin-bottom 60px
+	
+
+	
+.doing_icons_item
+	position relative
+	width 17%
+	font-size 16px
+	padding-top 140px
+	text-align center
+	margin-bottom 80px
+	
+	&:before
+		content ''
+		position absolute
+		top 5px
+		left 50%
+		transform translateX(-50%)
+		
+	&:after
+		content ''
+		display block
+		position absolute
+		right -40px
+		top 40px
+		sprite($s-doing_arrow)
+		
+	&:last-child
+		
+		&:after
+			display none
+		
+.doing_icon_seo
+	&:before
+		sprite($s-doing_seo_i)
+		
+.doing_icon_shop
+	&:before
+		sprite($s-doing_shop_i)
+		
+.doing_icon_call
+	&:before
+		sprite($s-doing_call_i)
+		
+		
+.doing_icon_send
+	&:before
+		top 20px
+		sprite($s-doing_send_i)
+		
+		
+.doing_icon_cash
+	&:before
+		sprite($s-doing_cash_i)		
+		
+		
+	
+	

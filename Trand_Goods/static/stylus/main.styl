@@ -1,0 +1,154 @@
+// Подключаем стили библиотек
+@import '_libs.styl'
+
+// Подключаем переменные
+@import '_vars.styl'
+
+// Подключаем спрайты (просто раскоментируем импорт при появлении PNG спрайтов)
+ @import '_sprite.styl'
+
+// Подключаем миксины
+@import '_mixins.styl'
+
+html 
+  line-height 1
+  font-size 18px
+
+body
+  background-color mainBgColor	
+  font-family mainFont
+  color lightGrayTextColor
+  
+
+h1,h2,h3,h4,h5,h6
+  margin 0
+
+ul,li
+  margin 0
+  padding 0
+  list-style-type none
+  
+p
+  margin 0
+  
+a
+  text-decoration none
+  color #34404b
+ 
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video
+  vertical-align middle
+  
+textarea
+  resize none
+
+section
+  position relative
+  
+input,
+select,
+button
+  outline none
+
+*, *:before, *:after
+  box-sizing border-box
+  
+.hide
+  display none
+  
+.show
+  display block
+  
+::-moz-selection 
+  background: #b3d4fc;
+  text-shadow: none;
+  
+::selection 
+  background: #b3d4fc;
+  text-shadow: none;
+  
+.clearfix:before,
+.clearfix:after 
+  content: " ";
+  display: table;
+
+.clearfix:after 
+  clear: both;
+
+.clearfix 
+  *zoom: 1;
+    
+.container
+    position relative
+    width:97%
+    max-width:1200px
+    margin 0 auto
+
+
+
+	
+//Кнопки	
+
+	
+							
+	
+
+
+
+
+// Общие стили
+@import '_common_styles.styl'
+
+// Стили шапки
+@import 'modules/_header.styl'
+
+
+
+// Стили меню
+@import 'modules/_menu.styl'
+
+// Стили главной страницы
+@import 'page/_index.styl'
+//стили верхнего баннера
+
+// Стили футера
+@import 'modules/_footer.styl'
+
+
+// Стили медиазапросов
+@import '_media.styl'
+
+// Стили секции top_banner
+@import 'modules/_top_banner.styl'
+
+// Стили секции about_us
+@import 'sections/about_us.styl'
+
+// Стили секции doing
+@import 'sections/doing.styl'
+
+
+
+
+
+// Стили секции our_packets
+@import 'sections/our_packets.styl'
+
+// Стили секции why
+@import 'sections/why.styl'
+
+// Стили секции review
+@import 'sections/review.styl'
+
+// Стили секции region
+@import 'sections/region.styl'
+
+// Стили секции open_form
+@import 'sections/open-form.styl'
+
+

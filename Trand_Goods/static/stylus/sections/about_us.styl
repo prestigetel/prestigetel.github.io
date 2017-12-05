@@ -1,0 +1,60 @@
+.about-us
+	padding 100px 0
+	
+	.container
+		display flex
+		flex-wrap wrap
+		justify-content space-between
+		
+.about-us_img
+	flex-basis auto 
+	width 50%
+	
+.about-us_text
+	flex-basis auto 
+	width 50%	
+	
+.about-us_img
+	position relative
+	width 100%
+	max-width 380px
+	height 310px
+	margin 0 auto
+	background linear-gradient(90deg, rgb(117, 122, 255), rgb(223, 119, 255));
+	
+	img
+		position absolute
+		left 50%
+		top -50px
+		transform translateX(-50%)
+		z-index 1
+		
+	&:after
+		content ''
+		position absolute
+		top 20px
+		bottom 20px
+		left 20px
+		right 20px
+		display block
+		background-color white
+	
+	
+.about-us_text
+	font-size 24px
+	color lightGrayTextColor
+	font-family mediumFont
+	line-height 35px
+	
+	.first,
+	.second
+		display block
+		margin-bottom 50px
+		
+	
+	
+
+	
+		
+		
+			
