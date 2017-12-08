@@ -3403,6 +3403,7 @@ footer .footer_phone {
   }
   .region .container .open_form_wrap {
     position: static;
+    margin-bottom: -80px;
   }
   .region .container {
     height: auto;
