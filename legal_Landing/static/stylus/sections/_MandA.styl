@@ -1,0 +1,79 @@
+.deal
+	
+	.section_head
+	
+		h3
+			margin-top 50px
+			text-align center
+			
+		a
+			text-decoration underline
+			
+			&:hover
+				text-decoration none
+				
+				
+.deal_items
+	
+	a
+		color #111
+		text-decoration underline
+		
+		&:hover
+			text-decoration none
+				
+				
+.img_wrap
+	display inline-block
+	position relative
+	padding-bottom 30px
+	margin-bottom 12px
+	
+	&:before
+		position absolute
+		content ''
+		width 58px
+		height 1px
+		background-color mainColor
+		bottom 0
+		left 50%
+		transform translateX(-50%)
+		
+	
+	img
+		max-width 75px
+		max-height 60px
+		vertical-align bottom
+		
+		
+		
+.deal_item
+	display inline-block
+	
+	span
+		display block
+		font-family "RalewayBold", sans-serif
+		font-size 0.867em
+		line-height 1.2em
+		
+		
+.deal_item_wrap
+	display inline-block
+	width 185px
+	padding 0 15px
+	margin-bottom 75px
+	opacity 0
+	transform translateY(-30px)
+	
+	&.on
+		opacity 1
+		transition all .5s ease
+		transform translateY(0)
+	
+	
+.deal_item_container
+	text-align center
+	
+				
+
+	

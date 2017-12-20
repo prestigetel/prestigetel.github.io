@@ -1,0 +1,62 @@
+
+
+@font-face {
+			font-family: "PFCentroSlabProMedium";
+			src: url("PFCentroSlabProMedium/PFCentroSlabProMedium.eot");
+			src: url("PFCentroSlabProMedium/PFCentroSlabProMedium.eot?#iefix")format("embedded-opentype"),			url("PFCentroSlabProMedium/PFCentroSlabProMedium.woff") format("woff"),
+			url("PFCentroSlabProMedium/PFCentroSlabProMedium.ttf") format("truetype");
+			font-style: normal;
+			font-weight: normal;
+	}
+
+	@font-face {
+			font-family: "RalewayBold";
+			src: url("RalewayBold/RalewayBold.eot");
+			src: url("RalewayBold/RalewayBold.eot?#iefix")format("embedded-opentype"),
+			url("RalewayBold/RalewayBold.woff") format("woff"),
+			url("RalewayBold/RalewayBold.ttf") format("truetype");
+			font-style: normal;
+			font-weight: normal;
+	}
+
+	@font-face {
+			font-family: "RalewayRegular";
+			src: url("RalewayRegular/RalewayRegular.eot");
+			src: url("RalewayRegular/RalewayRegular.eot?#iefix")format("embedded-opentype"),
+			url("RalewayRegular/RalewayRegular.woff") format("woff"),
+			url("RalewayRegular/RalewayRegular.ttf") format("truetype");
+			font-style: normal;
+			font-weight: normal;
+	}
+
+	@font-face {
+			font-family: "RalewaySemiBold";
+			src: url("RalewaySemiBold/RalewaySemiBold.eot");
+			src: url("RalewaySemiBold/RalewaySemiBold.eot?#iefix")format("embedded-opentype"),
+			url("RalewaySemiBold/RalewaySemiBold.woff") format("woff"),
+			url("RalewaySemiBold/RalewaySemiBold.ttf") format("truetype");
+			font-style: normal;
+			font-weight: normal;
+	}
+
+	@font-face {
+			font-family: "RobotoBold";
+			src: url("RobotoBold/RobotoBold.eot");
+			src: url("RobotoBold/RobotoBold.eot?#iefix")format("embedded-opentype"),
+			url("RobotoBold/RobotoBold.woff") format("woff"),
+			url("RobotoBold/RobotoBold.ttf") format("truetype");
+			font-style: normal;
+			font-weight: normal;
+	}
+
+	@font-face {
+			font-family: "PFCentroSlabProBold";
+			src: url("PFCentroSlabProBold/PFCentroSlabProBold.eot");
+			src: url("PFCentroSlabProBold/PFCentroSlabProBold.eot?#iefix")format("embedded-opentype"),
+			url("PFCentroSlabProBold/PFCentroSlabProBold.woff") format("woff"),
+			url("PFCentroSlabProBold/PFCentroSlabProBold.ttf") format("truetype");
+			font-style: normal;
+			font-weight: normal;
+	}
+
+	

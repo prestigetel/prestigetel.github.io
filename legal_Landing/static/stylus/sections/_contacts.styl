@@ -1,0 +1,56 @@
+.contact
+	padding-bottom 70px
+
+
+
+.teams
+		text-align center
+		perspective 600px
+		margin-left -25px
+		
+		.team
+			
+			&-off
+				transform rotateY(100deg)
+				opacity 0
+				
+			&-on
+				opacity 1		
+			
+				
+			transition all 1s ease	
+			display inline-block
+			vertical-align top
+			width 260px
+			background-color #e5e5e5
+			margin 0 12px
+			color #97a4b2
+			font-size 0.9em
+			line-height 1.333em
+			padding 54px 28px 52px
+			margin-bottom 20px
+			min-height 345px
+			height auto
+			border-bottom 4px solid #cbc3c3
+			
+			h4
+				color #333
+				font-family "RalewayBold", sans-serif;
+				margin 30px 0 20px 0
+				font-size 1.25em
+				text-transform none
+				margin-bottom 10px
+				
+			p
+				color #6e7b8b
+				
+			span
+				font-family "RobotoBold", sans-serif
+				color #333
+				font-size 1.3em
+				display block
+				margin-top 20px
+				
+			
+			.team_icon				
+				@extend .img_wrapper

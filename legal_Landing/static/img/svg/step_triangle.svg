@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.1"
+   id="svg2"
+   width="291.37463"
+   height="130.10843"
+   viewBox="0 0 291.37463 130.10843"
+   sodipodi:docname="step_triangle.svg"
+   inkscape:version="0.92.1 r15371">
+  
+  <path
+     inkscape:connector-curvature="0"
+     style="fill:#f39f1f;fill-opacity:1;stroke-width:3px;stroke:#f39f1f"
+     d="M 2.5094683,129.35558 C 17.526403,107.64386 31.450734,86.275661 45.982202,62.216365 31.112648,39.568994 16.475565,22.553482 2.8672985,1.506931 L 124.56849,1.9287388 246.26967,2.3505464 c 0,0 33.01143,47.3708376 43.59927,61.0982796 -14.84566,23.567742 -27.0168,40.959894 -43.76464,65.661834 L 124.45692,128.68904 C 5.1916316,128.27568 2.5094683,129.35558 2.5094683,129.35558 Z"
+     id="path4487-0-8"
+     sodipodi:nodetypes="cccccccsc" />
+</svg>

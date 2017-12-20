@@ -1,0 +1,298 @@
+a
+	color #fff
+	
+	
+	&:hover, &:focus
+		color mainColor
+		text-decoration underline
+		transition all .5s ease
+		
+		
+		
+.headers
+	font-family "PFCentroSlabProMedium", sans-serif
+	text-transform uppercase
+	font-weight normal
+	color headersColor
+	
+	
+h1, h2, h3, h4, h5, h6
+	@extend .headers
+	
+	
+h1
+	font-size 3em	
+	
+	
+h2
+	font-size 1.875em
+	
+	
+h3
+	font-size 1.5em
+	
+	
+b, strong
+	font-family "RaleweyBold", sans-serif
+	
+	
+
+	
+	
+	
+.main_head	
+	position relative
+	min-height: 620px
+	background url('../img/general/header_bg.jpg') center no-repeat
+	background-size cover
+	width: 100%
+	max-width: 1920px
+	
+	&:before
+		@extend .before
+		background-color #394b5f
+		opacity .85
+	
+	
+	h1
+		text-transform none
+		
+		
+.top_line
+	padding-top 45px
+	background url('../img/general/top_gradient.png') repeat-x
+	min-height 160px
+	
+	
+.logo
+	opacity .95
+	
+	img
+		width 100px
+		
+		
+.main_mnu	
+	top 0
+	font-size 0.933em
+	color #fff
+	
+	
+	ul
+		line-height 48px
+		
+		li
+			display inline-block
+			margin-right 20px
+			
+			&.active,
+			&:hover
+				a
+					color mainColor
+					text-decoration underline
+					
+					
+.nav_wrap
+	position relative
+					
+
+			
+				
+				
+.phone_wrap
+	position relative
+	
+	.phone
+		opacity .9
+		font-size 1.333em
+		color #fff
+		font-family "RobotoBold", sans-serif
+		line-height 48px
+		text-aLign right
+		white-space nowrap
+		margin-left 20px
+		
+	.toggle_mnu
+		display block
+		float right
+		position absolute
+		top 0
+		right 0
+		width 48px
+		height 48px
+		line-height 48px
+		text-align center
+		
+		
+.sandvich_top 
+	 display inline-block
+	 vertical-align middle
+	 margin-right 15px
+	 position relative
+	 width 48px
+	 height 48px	 
+	 cursor pointer
+	 
+	 &.active		
+		.sandvich_line--top
+			top 21px
+			transform rotate(45deg)
+			
+	
+		.sandvich_line--middle
+			opacity 0
+			
+	
+		.sandvich_line--bottom
+			top 21px
+			transform rotate(-45deg)
+	 
+	 
+	 
+.sandvich_line 
+	 position absolute
+	 height 2px
+	 width 25px
+	 background-color #fff
+	 margin-left 11px
+	 @extend .trans
+	
+	 
+	 
+			
+			
+.sandvich_line--top
+	top 13px
+	
+.sandvich_line--middle
+	top 21px
+	opacity 1
+	
+.sandvich_line--bottom
+	top 29px
+	
+	
+.header_wrap	
+	margin-top 30px
+	
+	h1
+		margin-top 60px
+		color #fff
+		border-bottom mainColor 8px solid
+		display inline-block
+		
+	ul
+		margin-top 40px
+		
+		li			
+			font-family "RalewaySemiBold", sans-serif
+			font-size 1.2em
+			line-height 1.8em
+			
+			a
+				position relative
+				padding-left 12px
+				
+				
+				&:before
+					@extend .before
+					background url(../img/general/header_triangle.png) 0 0 no-repeat
+					top 0.3em
+					left 0
+					
+					
+.header_left
+	margin-bottom 100px
+	
+	
+.forms
+	background-color rgba(#2d3c4c, .8)
+	padding 25px 35px
+	font-size 0.867em
+	color #97a4b2
+	border-bottom 4px solid #1f2a36
+	min-width 280px
+	margin-bottom 60px
+	
+	
+	h4
+		color #fff
+		margin-bottom 20px
+		font-size 2.133em
+		font-family "PFCentroSlabProMedium", sans-serif
+		text-transform none
+	
+	label
+		margin 20px 0
+		display block
+		letter-spacing 1.5px
+		
+		span
+			display block
+			margin-bottom 5px
+			color #778390
+		
+	input
+		display block
+		width 100%
+		border none
+		box-shadow 0 -3px #1f2a36
+		background-color #34465a
+		height 45px
+		text-indent 10px
+		color #fff
+		font-size 1.6em
+		font-family "PFCentroSlabProMedium", sans-serif
+		
+		&:focus
+			box-shadow 0 -5px #1f2a36
+			transition all .5s ease
+			background-color #3f5874
+	button
+		@extend .buttons
+			
+			
+
+	
+	
+.button_wrap
+	text-align center
+	
+.arrow_wrap
+	@extend .button_wrap
+	position relative
+	z-index 2
+	
+	
+.arrow_bottom
+	display inline-block
+	width 40px
+	height 40px
+	background url(../img/general/arrow_down.png) 0 0 no-repeat
+	margin-bottom 80px
+	opacity .7
+	cursor pointer
+	
+	&:hover
+		opacity 1
+		transition all .25s ease
+	
+	
+	
+
+	
+	
+
+	
+	
+	
+
+	
+						
+			
+			
+		
+		
+		
+	 
+		
+		

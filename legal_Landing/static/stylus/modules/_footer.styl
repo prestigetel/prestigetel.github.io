@@ -1,0 +1,99 @@
+footer
+	position relative
+	
+	
+	
+	
+		
+	.footer_top_line
+		padding-top 80px
+		padding-bottom 60px
+		min-height 160px
+		background-color #2c3949
+		position relative
+		
+		&:before			
+			content ''
+			position absolute
+			width 100%
+			height 6px		
+			z-index 2
+			top -6px
+			left 0
+			background url(../img/general/bah_2.png) repeat-x
+			
+	
+	.footer_bottom_line
+		min-height 40px
+		
+		height 100%
+		background-color #1f2b3a
+		position relative
+		padding-top 12px
+		
+		.arrow_top			
+			width 10px
+			height 12px
+			margin auto
+			background url(../img/general/arrow_up.png) center no-repeat
+			opacity 0.4			
+			
+			&:hover
+				opacity 1
+				cursor pointer
+			
+			
+		
+		
+			
+			
+			
+	.main_mnu_bottom		
+			top 0
+			font-size 0.933em
+			color #fff
+			z-index 100
+
+			ul
+				line-height 48px
+				
+			
+			li
+				display inline-block
+				margin-right 20px
+
+				&.active,
+				&:hover
+					a
+						color mainColor
+						text-decoration underline	
+
+							
+							
+	.sandvich_bottom
+		 display inline-block
+		 vertical-align middle
+		 margin-right 15px
+		 position relative
+		 width 48px
+		 height 48px	 
+		 cursor pointer
+
+		 &.active		
+			.sandvich_line--top
+				top 21px
+				transform rotate(45deg)
+
+
+			.sandvich_line--middle
+				opacity 0
+
+
+			.sandvich_line--bottom
+				top 21px
+				transform rotate(-45deg)
+
+
+			
+		
+		
