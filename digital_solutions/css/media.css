@@ -1,0 +1,331 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1100px) {
+    .advantages li{
+        font-size: 14px;
+    }
+    
+    .advantages li h3{
+        text-align: left;
+    }
+    
+    .developing-framework h3{
+        text-align: center;
+    }
+    
+     .container-head{
+        margin-bottom: 40px;
+    }
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 940px) {
+   
+	.navigation-holder{
+		display: none;
+	}
+	
+	
+	
+	
+	.navigation-list li{
+		color: #fff;
+		margin: 0;
+	}
+	
+	.navigation-list li a:hover{
+		color: #e2e2e2;
+		border-bottom: 1px solid #fff;
+	}
+	
+	
+	
+	.button-mobile{
+		display: block;
+	}
+	
+
+    
+    .logo-holder{
+        width: 100%;
+        text-align: center;
+        padding: 25px 0
+    }
+    
+    header h1{
+        font-size: 50px;
+        line-height: 1.1;
+        margin-bottom: 15px;
+    }
+    
+    h2{
+        font-size: 30px;
+        line-height: 1.1;
+    }
+    
+    .subtitle{
+        font-size: 18px;
+        
+    }
+    
+    .container-padding{
+        padding: 60px 0;
+    }   
+    
+    
+    .jear-bg{
+        display: none;
+    }
+    
+    .photo-bg{
+        width: 100%;
+        padding: 20px 15px
+    }
+    
+    .photo-bg .btn{
+        width: 100%;
+    }
+    
+    .photo-bg .check-list{
+        margin-bottom: 40px;
+    }
+    
+    .image-block{
+        display: none;
+    }
+    
+    .developing-text{
+        width: 100%;
+    }
+    
+    .developing-framework{
+        width: 100%;
+    }
+    
+    .culture-content{        
+        flex-direction: column;
+    }
+    
+    .culture-item .img-wrap:after{
+        display: none;
+    }
+    
+    .culture-content .col-1-of-3{
+        width: 50%;
+        margin: 0 auto;
+        margin-bottom: 50px;
+    }
+    
+    .culture-content .col-1-of-3:last-child{
+        margin-bottom: 0;
+    }
+    
+     .row{       
+        flex-direction: column;
+    }
+    
+    .col-1-of-3{
+        width: 100%;
+        margin-bottom: 30px;
+        -ms-text-align-last: auto;
+        
+    }
+    
+    .col-1-of-3:last-child{
+        margin-bottom: 0;
+    }
+    
+     .container-padding{
+        padding: 50px 0;
+    }
+    
+    .culture-content .col-1-of-3{
+        width: 100%;
+        
+    }
+    
+    .text-block{
+        margin: 0 auto;
+        padding: 20px;
+    }
+    
+    .photo-block:nth-child(1){
+        margin: 0 auto;
+        margin-bottom: 30px;
+    }
+    
+    .photo-block:nth-child(2){
+        margin: 0 auto;
+        margin-top: 30px;
+    }
+    
+    .our-clients-content .row:nth-child(1) .text-block:before{
+       top: -18%;
+       left: 50%;
+       border-bottom: 22px solid #f9f9f9;
+       transform: translateX(-50%);
+       border-right: 10px solid transparent;
+           
+    }
+    
+    .our-clients-content .row:nth-child(2) .text-block:before{
+         right: 50%;
+         top: 98%;
+         border-top: 22px solid #f9f9f9;
+         border-left: 10px solid transparent;
+         transform: translateX(50%);    
+           
+    }
+    
+    .logos img{
+        width: 100%;
+        max-width: 200px;
+        margin-bottom: 20px;
+    }
+    
+    .logos{
+        margin: 0 auto;
+    }
+    
+    .footer-top{        
+        flex-direction: column;
+    }
+    
+    .footer-top .posts{
+        margin-right: 0;
+        margin-left: 55px;
+    }
+    
+    .footer-top .posts{
+        margin-right: 0;
+        margin-left: 50px;
+    }
+    
+     .footer-top .tweets{
+        margin-right: 0;
+        margin-left: 50px;
+    }
+    
+    .footer-top .footer-top-item:nth-child(2) h3 {
+        margin-left: 10px;
+ }
+    
+    .footer-top .footer-top-item:nth-child(3) h3 {
+        margin-left: 10px;
+ }
+    
+    .footer-top-item{
+        margin-bottom: 40px;
+    }
+    
+    .footer-top-item:last-child{
+        margin-bottom: 0;
+    }
+}
+
+
+
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+    .text-block p{
+        font-size: 18px;
+    }
+    
+    .text-block p.author{
+        font-size: 16px;
+    }
+    
+    .container-fluid.container-fluid--green{
+        padding: 50px;
+    }
+    
+    .footer-bottom{
+        padding: 0 20px;
+        text-align: center;
+    }
+    
+    .footer-bottom .social-icons{
+        margin-left: 0;
+    }
+    
+    .copy-block{
+        margin-bottom: 20px;
+    }
+   
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 494px) {
+    .advantages li:before{
+        top: -14%;
+    }
+    
+    .container-padding{
+        padding: 30px;
+    }
+    
+    .contact-us h2{
+        font-size: 25px;
+    }
+	
+	header h1{
+		font-size: 45px;
+	}
+}
+
+@media only screen and (max-width : 441px) {
+    .our-clients-content .row:nth-child(1) .text-block:before{
+       top: -15%;
+       
+    }
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 421px) {
+    .our-clients-content .row:nth-child(1) .text-block:before{
+      
+       top: -14%
+    }
+}
+
+@media only screen and (max-width : 378px) {
+    .our-clients-content .row:nth-child(1) .text-block:before{
+       top: -12%;
+       
+    }
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+ /* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}

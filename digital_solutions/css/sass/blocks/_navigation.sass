@@ -1,0 +1,120 @@
+$dark-gray-color: #777777
+$light-green-color: #b0e7ab
+$orange-color: #ecd538
+$green-color: #7cc576
+
+.logo-holder
+    width: 220px    
+    padding: 45px 0
+    
+    
+.navigation-holder
+	padding-top: 45px
+	padding-bottom: 45px
+	width: 700px
+
+	&.show-mobile
+		display: block
+		position: fixed
+		left: 0
+		height: 100%
+		width: 100%
+		z-index: 100
+		background-color: rgba(124, 197, 118, .95)
+		
+
+		.navigation-list		
+			flex-direction: column
+			text-align: center
+			justify-content: space-around
+			height: 100%
+			align-items: center 
+
+.navigation-list    
+    display: flex
+    flex-direction: row
+    justify-content: flex-end
+    text-transform: uppercase
+    
+    li      
+        margin-right: 35px
+        color: $dark-gray-color
+        
+        a
+            color: inherit
+            font-family: "MontserratRegular", sans-serif
+            font-size: 14px            
+            border-bottom: 0px solid $light-green-color
+            padding-bottom: 7px
+            outline: none
+            
+            &:hover
+                color: $green-color
+                border-bottom: 1px solid $light-green-color
+                padding-bottom: 3px
+                text-decoration: none
+            &:active, &:focus
+                color: $orange-color
+                border-bottom: 1px solid $orange-color
+                padding-bottom: 3px
+                text-decoration: none
+                
+        
+        &:last-child
+            margin-right: 0
+		
+.button-mobile
+	display: none
+	position: absolute
+	top: 17px
+	cursor: pointer
+	position: fixed
+	z-index: 100
+
+	&.active
+	
+		.menu-line
+	
+			&--top
+				top: 50%
+				transform: rotate(45deg)
+				left: 7px	
+				
+
+			&--middle
+				opacity: 0
+	
+			&--bottom
+				top: 50%
+				transform: rotate(-45deg)
+				left: 7px
+		
+.burger
+	position: relative
+	width: 45px
+	height: 45px
+	border: 2px solid #555
+	background-color: rgba(87, 146, 82, .85)
+
+	.menu-line
+		position: absolute
+		display: block
+		height: 2px
+		width: 30px
+		background-color: #555
+		left: 50%
+		transform: translateX(-50%)
+		transition: all linear 0.5s	
+
+		&--top
+			top: 10px
+
+		&--middle
+			top: 20px
+
+		&--bottom
+			top: 30px
+		
+
+        
+      

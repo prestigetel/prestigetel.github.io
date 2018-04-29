@@ -1,0 +1,17 @@
+@font-face {
+  font-family: "MontserratBold";
+  font-style: normal;
+  font-weight: bold;
+  src: url("../fonts/MontserratBold/Montserrat-Bold.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "MontserratRegular";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/MontserratRegular/Montserrat-Regular.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "RobotoSlabRegular";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/RobotoSlabRegular/RobotoSlabRegular.ttf") format("truetype"); }

@@ -1,0 +1,54 @@
+.logo-holder {
+  width: 220px;
+  padding: 45px 0; }
+
+.navigation-holder {
+  width: 700px;
+  padding: 45px 0; }
+
+.navigation-list {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  text-transform: uppercase; }
+  .navigation-list li {
+    margin-right: 35px;
+    color: #777777; }
+    .navigation-list li a {
+      color: inherit;
+      font-family: "MontserratRegular", sans-serif;
+      font-size: 14px;
+      border-bottom: 0px solid #b0e7ab;
+      padding-bottom: 7px;
+      outline: none; }
+      .navigation-list li a:hover {
+        color: #7cc576;
+        border-bottom: 1px solid #b0e7ab;
+        padding-bottom: 3px;
+        text-decoration: none; }
+      .navigation-list li a:active, .navigation-list li a:focus {
+        color: #ecd538;
+        border-bottom: 1px solid #ecd538;
+        padding-bottom: 3px;
+        text-decoration: none; }
+    .navigation-list li:last-child {
+      margin-right: 0; }
+
+.nav-mobile {
+  display: block; }
+  .nav-mobile .mobile-line {
+    display: block;
+    background-color: #fff;
+    height: 2px;
+    width: 30px; }
