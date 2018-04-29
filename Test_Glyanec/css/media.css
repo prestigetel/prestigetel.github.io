@@ -1,0 +1,384 @@
+//Медиазапросы
+
+/*==========  Desktop First Method  ==========*/
+
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1250px) {
+	.shedule, .personal-user{
+		padding-left: 0;
+	}
+}
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+	.top-line{		
+		flex-direction: column;
+	}
+	
+	.top-logo, .phone{
+		justify-content: center;
+	}
+	
+	.shedule{
+		justify-content: center;
+		width: 100%;
+		margin-bottom: 30px;
+		padding-left: 0;
+	}
+	
+	.phone{
+		margin-bottom: 20px;
+	}
+	
+	.personal-user{
+		position: absolute;
+		right: 20px;
+		padding-left: 0;
+	}
+	
+	.drop-list-phones{
+		top: 11px;
+	}
+	
+	.drop-list-phones:before{
+		top: -13px;
+	}
+	
+	.drop-list-phones.bottom-phones:before{
+		top: -10px;
+	}
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 1129px) {
+	.navigation-list a{
+		font-size: 12px;
+	}
+	
+	.navigation-list li:hover a{
+		font-size: 13px;
+	}
+	
+	.product-item{
+		padding: 20px;
+	}
+	
+	footer .container{		
+		flex-direction: column;
+	}
+	
+	.bottom-logo{
+		margin: 0 auto;
+		margin-bottom: 20px;
+		text-align: center;	
+		position: absolute;		
+	}
+	
+	footer .logo{
+		margin-bottom: 5px;		
+	}
+	
+	footer .shedule{
+		margin: 0 auto;
+	}
+	
+	footer .shedule p{
+		margin-bottom: 10px;
+	}
+	
+	.bottom-nav{
+		margin: 0 auto;
+		margin-top: 15px;
+	}
+	
+	footer .phone{
+		margin: 0 auto;
+		margin-top: 15px;
+	}
+	
+	.company-name{
+		margin-top: 10px;
+	}
+	
+	footer .phone-number{
+		margin-bottom: 10px;		
+	}
+	
+	footer .phone-number p{
+		font-size: 16px;		
+	}
+	
+	footer .phone-number p:before{
+		top: 0;		
+	}
+	
+	footer .phone{
+		position: absolute;
+		right: 2%;
+	}
+	
+	
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+	.navigation-list{		
+		flex-direction: column;
+		align-items: center;
+		background-color: rgba(26, 176, 206, 0.9);
+		position: fixed;
+		top: 0;
+		left: 0;
+		bottom: 0;
+		right: 0;
+		padding: 30px 0;
+		z-index: 201;
+		display: none;
+			
+	}
+	
+	.navigation-list li{
+		margin: 0;
+		padding: 0;		
+		padding: 15px 0;
+		width: 100%;
+		text-align: center;
+	}
+	
+	.navigation-list li:hover a{
+		color: #fff;
+		border: none;
+		font-size: 16px;
+		
+	}
+	
+	.navigation-list li:hover{
+		border: none;
+		background-color: rgba(242, 242, 242, 0.5);
+	}
+	
+	.navigation-list li.search:hover{
+		background-color: transparent;
+	}
+	
+	.navigation-list a{
+		font-size: 16px;
+		display: inline-block;
+	}
+	
+	
+	
+	
+	
+	.personal-user{
+		position: absolute;
+		right: 20px;
+		top: 75px;
+	}
+	
+	.toggle_mnu{
+		display: block;
+	}
+	
+	.container-fluid h1{
+		font-size: 46px;
+	}
+	
+	.container-fluid h2{
+		font-size: 20px;
+	}
+	
+	.container-fluid h1:after{
+		display: none;
+	}
+	
+	.container-fluid{
+		min-height: 400px;
+	}
+	
+	.product .container{		
+		flex-direction: column;
+		text-align: center;
+	}
+	
+	.product-item{
+		margin: 0 auto;
+		margin-bottom: 20px;
+		width: 100%;
+		max-width: 270px;
+	}
+	
+	.product-item:last-child{
+		margin: 0 auto;
+	}
+	
+	.drop-list-phones{
+		top: 8px;
+	}
+	
+	.drop-list-phones:before{
+		top: -10px;
+	}	
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	.news .container{		
+		flex-direction: column;
+	}
+	
+	.btn-news{
+		margin-top: 30px;
+	}
+	
+	footer .logo p{
+		font-size: 2.5rem;
+	}
+	
+	footer .logo span{
+		font-size: 0.8rem;
+		text-align: left;
+	}
+	
+	footer .shedule span{
+		font-weight: bold;
+	}
+}
+
+@media only screen and (max-width : 650px) {
+	.bottom-logo, footer .phone{
+		position: relative;
+	}
+	
+	footer .shedule{
+		width: 100%;
+		text-align: center;	
+	}
+	
+	.drop-list-phones.bottom-phones{
+		top: -212px;
+		right: -12px;	
+	}
+	
+	.drop-list-phones.bottom-phones:before{
+		display: block;
+		content: "";		
+		border-style: solid;
+		border-width: 8px 10px 0 10px;
+		border-color: #fff transparent transparent transparent;
+		top: 100%;
+		right: 5%;
+	}	
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 600px) {
+	.top-logo{
+		justify-content: flex-start;
+	}
+	
+	.shedule{
+		margin-top: 30px;
+	}	
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+	.personal-user{
+		right: 50%;
+		top: 100px;
+		transform: translateX(50%);	
+	}
+	
+	.logo-text p{
+		font-size: 2.5rem;
+	}
+	
+	.logo-text span{
+		font-size: 0.8rem;
+	}
+	
+	.shedule{
+		font-size: 14px;
+	}	
+	
+	
+	.phone-text p{
+		font-size: 16px;
+	}
+	
+	.phone-number p:before{
+		top: 0;
+		left: 0;			
+	}
+	
+	.phone-number img{
+		margin-right: 5px;
+	}
+	
+	.phone-cart .img-wrap{
+		margin-left: 8px;
+	}
+	
+	.navigation-list a{
+		font-size: 14px;
+	}
+	
+	.navigation-list li:hover a{
+		font-size: 14px;
+	}
+	
+	.container-fluid h1{
+		font-size: 35px;
+	}
+	
+	.product-item{
+		padding: 10px;
+	}
+	
+	.lists ul.left{
+		margin-right: 40px;
+	}
+	
+	.drop-list-phones p{
+		font-size: 14px;
+		margin-top: 3px;
+	}
+	
+	.call-btn{
+		display: none;
+	}
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+	
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+ /* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}

@@ -1,0 +1,67 @@
+
+//Выпадающий список телевонов в хедере
+.drop-list-phones	
+	width: 100%
+	max-width: 220px
+	min-height: 160px
+	background-color: #f2f2f2
+	position: absolute
+	margin-top: 40px
+	margin-left: 40px
+	flex-direction: column
+	display: flex
+	right: -2px
+	top: 12px
+	z-index: 50
+	display: none
+	
+
+	&:before
+		display: block
+		content: ""
+		border-style: solid;
+		border-width: 0 8px 10px 8px;
+		border-color: transparent transparent #f2f2f2 transparent;
+		position: absolute
+		right: 5px
+		top: -10px
+
+
+	//Выпадающий список телевонов в футере
+	&.bottom-phones		
+		top: -2px
+		background-color: #fff
+		
+		&:before			
+			border-color: transparent transparent #fff transparent;
+			
+
+.mts, .bilain, .kievstar	
+	display: flex
+	align-items: flex-start
+	justify-content: center
+	margin-top: 20px
+	font-size: 16px
+
+	img
+		margin-right: 10px
+
+	p
+		font-size: 16px
+		font-weight: normal
+		padding: 0	
+
+		&:before
+			display: none
+
+.kievstar
+	
+	p	
+		margin-top: 3px
+	
+
+
+
+
+
+	

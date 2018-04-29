@@ -1,0 +1,15 @@
+.product .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center; }
+
+.product-item {
+  width: 33.3%; }
+  .product-item h3 {
+    color: #3A4047;
+    text-transform: uppercase; }

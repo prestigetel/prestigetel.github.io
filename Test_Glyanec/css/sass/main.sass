@@ -1,0 +1,116 @@
+@import "bourbon/bourbon"
+@import "header.sass"
+@import "reset.sass"
+@import "navigation.sass"
+@import "product.sass"
+@import "about-us.sass"
+@import "news.sass"
+@import "footer.sass"
+@import "mobile-mnu.sass"
+@import "preloader.sass"
+@import "drop-list-phones.sass"
+
+body
+	font-family: "ClearSans", sans-serif
+	font-weight: normal
+	font-size: 14px
+	color: $dark-color
+	min-width: 320px
+	position: relative
+	line-height: 1.42857
+	-webkit-font-smoothing: antialised
+	width: 100%
+	
+
+html, body
+    overflow-x: hidden
+
+h1,h2,h3,h4,h5,h6
+	color: #fff
+
+.container
+	width: 97%	
+	max-width: 1170px
+	margin: 0 auto
+	
+	
+//Кнопка в хедере "Сделать заказ"
+.btn
+	display: inline-block
+	text-align: center
+	max-width: 200px
+	width: 100%
+	background-color: $blue-color
+	padding: 15px 20px
+	text-decoration: none
+	color: #fff
+	font-size: 16px
+	font-weight: bold
+	border: 3px solid $blue-color
+
+	//Кнопка в секции "Новости"
+	&-news
+		max-width: 190px
+		background-color: #fff
+		color: $blue-color
+		border-radius: 2px
+		border: 1px solid $blue-color
+		padding: 8px 0
+		text-decoration: none
+		display: block
+		text-align: center
+		margin: 0 auto
+		margin-top: 50px
+
+		&:hover
+			background-color: $blue-color
+			color: #fff			
+			transition: all .25s ease
+
+	&:hover
+		background-color: #fff
+		color: $blue-color
+		transition: all .25s ease
+
+//Кнопка "Перезвоните мне сейчас"
+.call-btn
+	border-radius: 50%
+	width: 108px
+	height: 108px
+	background-color: $blue-color
+	z-index: 200
+	position: absolute
+	top: 31.5%
+	right: 5%
+	color: #fff
+	text-decoration: none
+	text-align: center
+	vertical-align: middle
+	font-weight: bold
+	
+	p
+		margin-top: 5px
+
+	img
+		margin-top: 15px
+
+//Заголовок секций
+.section_head
+	text-align: center
+	font-size: 36px
+	color: $dark-color
+	font-weight: normal
+	padding: 45px 0 40px 0
+
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid
+	color: red
+body input:required:valid,
+body textarea:required:valid
+	color: green
+
+
+
+.hidden
+	display: none

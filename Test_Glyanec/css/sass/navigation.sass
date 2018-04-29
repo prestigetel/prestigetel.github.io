@@ -1,0 +1,44 @@
+
+//Стили для навигации
+.navigation-list	
+	display: flex
+	flex-direction: row
+	justify-content: space-between
+	
+	
+	li
+		padding: 20px 30px
+		margin-top: 4px
+
+		&:hover
+			border-top: 1px solid $blue-color
+			transition: all .25s ease
+
+			a
+				text-decoration: none
+				color: $blue-color
+				transition: all .25s ease
+
+	
+		&:first-child
+			padding-left: 0
+			
+
+		&.search
+			padding-right: 0
+			
+			&:hover
+				border-top: none
+
+		
+		
+
+	a		
+		color: $dark-color
+		text-decoration: none
+		text-transform: uppercase
+		font-family: "ClearSans", sans-serif
+		font-weight: bold
+		font-size: 16px
+
+		

@@ -1,0 +1,17 @@
+@font-face {
+  font-family: "ClearSans";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/ClearSansRegular/ClearSansRegular.eot?#iefix") format("embedded-opentype"), url("../fonts/ClearSansRegular/ClearSansRegular.woff") format("woff"), url("../fonts/ClearSansRegular/ClearSansRegular.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "ProximaNova";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/ProximaNova-Black/ProximaNova-Black.eot?#iefix") format("embedded-opentype"), url("../fonts/ProximaNova-Black/ProximaNova-Black.woff") format("woff"), url("../fonts/ProximaNova-Black/ProximaNova-Black.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "Cuprum";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/CuprumRegular/CuprumRegular.eot?#iefix") format("embedded-opentype"), url("../fonts/CuprumRegular/CuprumRegular.woff") format("woff"), url("../fonts/CuprumRegular/CuprumRegular.ttf") format("truetype"); }
